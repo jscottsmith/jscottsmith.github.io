@@ -1,4 +1,4 @@
-<img src="http://jscottsmith.me/assets/img/waynes-world-garth-404.gif" alt="Excellent! />
+![Excellent!](http://jscottsmith.me/assets/img/waynes-world-garth-404.gif)
 
 # J Frame
 
@@ -7,6 +7,8 @@
 [Theremin Oscillator](https://jscottsmith.github.io/theremin-oscillator/example/)
 
 [Emoji Shooter](https://jscottsmith.github.io/emoji-shooter/dist/)
+
+[React Hex](https://jscottsmith.github.io/react-hex/dist/)
 
 ## Elsewhere
 
