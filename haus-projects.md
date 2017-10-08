@@ -1,5 +1,23 @@
 # HAUS Contributions
 
+### Media Arts Lab
+
+New site Media Arts Lab
+
+- Agency: MAL
+- Tech: Node, React
+- Role: Front-end Developer
+- Date: 2016
+
+### Fabriq
+
+QA for creative industries
+
+- Tech: Node, React
+- Role: Front-end Developer
+- Site: http://fabric.qa
+- Date: 2016
+
 ### Ford By Design
 
 Design your own billboard with your choice of Ford, custom background effects and pick the city it shows up in.
@@ -18,6 +36,16 @@ Microsite to help you officially annouce your latest Netflix binge by creating a
 - Tech: Node, React
 - Role: Front-end Developer
 - Site: https://bingecards.netflix.com
+- Date: 2015
+
+### Made in HAUS
+
+Redesign of HAUS' own website showcasing the work, the company's abilities, and the studio space.
+
+- Tech: Node, React
+- Role: Front-end Developer
+- Site: https://madeinhaus.com
+- Awards: FWA - Mobile of the Day, May 2016 
 - Date: 2015
 
 ### Vanity Fair's Take Back The Table
