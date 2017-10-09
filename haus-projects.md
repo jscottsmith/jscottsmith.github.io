@@ -1,5 +1,15 @@
 # HAUS Contributions
 
+### NFL and Hyundai's Put Your Profile on the Line
+
+Social integrated web app to start bets with friends that your NFL team will win putting your profile up as collateral.
+
+- Agency: Innocean USA
+- Tech: Node, Firebase, React
+- Role: Front-end Developer
+- Site: [https://pypotl.becausefootball.com/](https://pypotl.becausefootball.com/)
+- Date: 2016
+
 ### Santa Fe Institute's Website
 
 Newly redesigned site for the Santa Fe Institute, the world's headquarters for complexity science.
