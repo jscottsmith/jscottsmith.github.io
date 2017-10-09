@@ -1,5 +1,15 @@
 # HAUS Contributions
 
+### David & Goliath's Website
+
+Agency David & Goliath's new website to showcase new work, the company's culture, and employees.
+
+- Client: David & Goliath
+- Tech: Node, React
+- Role: Lead Front-end Developer
+- Site: [http://dng.com/](http://dng.com/)
+- Date: 2016
+
 ### Zillow's Home Is
 
 Microsite for Zillow's social media push to share what "#HOMEis" to you by creating a custom share image.
