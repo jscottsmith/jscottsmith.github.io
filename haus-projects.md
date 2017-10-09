@@ -1,5 +1,17 @@
 # HAUS Contributions
 
+### LG's Life's Good When You Play More
+
+Microsite with fun, quirky, and bizarre minigames and videos to showcase features or addons of the new LG G5 phone.
+
+- Agency: EnergyBBDO
+- Tech: Node, React, Canvas, WebGL
+- Role: Front-end Developer
+- Site: [http://www.lg.com/global/g5-play-more](http://www.lg.com/global/g5-play-more)
+- Awards: FWA - Mobile of the Day, May 22, 2016 
+- Date: 2016
+
+
 ### David & Goliath's Website
 
 Agency David & Goliath's new website to showcase new work, the company's culture, and employees.
@@ -64,7 +76,7 @@ Redesign of HAUS' own website showcasing the work, the company's abilities, and 
 - Tech: Node, React
 - Role: Front-end Developer
 - Site: https://madeinhaus.com
-- Awards: FWA - Mobile of the Day, May 2016 
+- Awards: FWA - Mobile of the Day, May 8, 2016 
 - Date: 2015
 
 ### Vanity Fair's Take Back The Table
