@@ -1,5 +1,24 @@
 # HAUS Contributions
 
+###  Ad Council's Seize the Awkward
+
+Ad Council's new campaign to help discuss issues with friends who may be at risk of suicide -- however awkward.
+
+- Agency: Droga5
+- Tech: Node, React
+- Role: Lead Front-end developer
+- Date: 2017
+
+### Rob Dyrdek's Website
+
+Redesign of Rob Dyrdek's personal site.
+
+- Client: Rob Dyrdek
+- Tech: Node, React
+- Role: Front-end Developer
+- Site: [http://robdyrdek.com/](http://robdyrdek.com/)
+- Date: 2017
+
 ### Prudential's The Wellness Effect
 
 An interactive pop-up book presenting the ways that workplace financial wellness programs benefit everyone.
