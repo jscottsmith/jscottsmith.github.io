@@ -1,5 +1,14 @@
 # HAUS Contributions
 
+### Prudential's The Wellness Effect
+
+An interactive pop-up book presenting the ways that workplace financial wellness programs benefit everyone.
+
+- Client: Prudential
+- Tech: Node, React
+- Role: Lead Front-end developer
+- Date: 2017
+
 ### MicroVention's Website
 
 Website for MicroVention, a medical device company leading innovations in development of catheter-based technologies to treat neuroendovascular diseases.
