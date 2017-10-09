@@ -1,5 +1,23 @@
 # HAUS Contributions
 
+### Rexford Industrial's Website
+
+Website for Rexford Industrial, a Southern California industrial real estate investment company.
+
+- Client: Rexford Industrial
+- Tech: Node, React
+- Role: Front-end developer
+- Date: 2016
+
+### HAUS 360
+
+HAUS' site showcasing direct to client work.
+
+- Tech: Node, React
+- Role: Lead Front-end Developer
+- Site: [http://360.madeinhaus.com/](http://360.madeinhaus.com/)
+- Date: 2016
+
 ### NFL and Hyundai's Put Your Profile on the Line
 
 Social integrated web app to start bets with friends that your NFL team will win putting your profile up as collateral.
