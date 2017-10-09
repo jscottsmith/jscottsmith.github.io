@@ -1,5 +1,15 @@
 # HAUS Contributions
 
+### Santa Fe Institute's Website
+
+Newly redesigned site for the Santa Fe Institute, the world's headquarters for complexity science.
+
+- Client: Santa Fe Institute
+- Tech: Django, React
+- Role: Lead Front-end Developer
+- Site: [https://santafe.edu/](https://santafe.edu/)
+- Date: 2016
+
 ### Rob Dyrdek's Machine
 
 Website for Rob Dyrdek's new venture studio, The Machine.
