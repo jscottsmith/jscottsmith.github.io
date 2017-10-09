@@ -1,5 +1,15 @@
 # HAUS Contributions
 
+### Rob Dyrdek's Machine
+
+Website for Rob Dyrdek's new venture studio, The Machine.
+
+- Client: Rob Dyrdek
+- Tech: Node, React
+- Role: Front-end Developer
+- Site: [http://dyrdekmachine.com/](http://dyrdekmachine.com/)
+- Date: 2016
+
 ### LG's Life's Good When You Play More
 
 Microsite with fun, quirky, and bizarre minigames and videos to showcase features or addons of the new LG G5 phone.
