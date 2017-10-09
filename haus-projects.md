@@ -1,12 +1,21 @@
 # HAUS Contributions
 
+### MicroVention's Website
+
+Website for MicroVention, a medical device company leading innovations in development of catheter-based technologies to treat neuroendovascular diseases.
+
+- Client: MicroVention
+- Tech: Django
+- Role: Lead Front-end developer
+- Date: 2017
+
 ### Rexford Industrial's Website
 
 Website for Rexford Industrial, a Southern California industrial real estate investment company.
 
 - Client: Rexford Industrial
 - Tech: Node, React
-- Role: Front-end developer
+- Role: Lead Front-end developer
 - Date: 2016
 
 ### HAUS 360
