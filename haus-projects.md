@@ -44,6 +44,7 @@ Website for Rexford Industrial, a Southern California industrial real estate inv
 - Client: Rexford Industrial
 - Tech: Node, React
 - Role: Lead Front-end developer
+- Site: [http://rexfordindustrial.com/](http://www.rexfordindustrial.com/)
 - Date: 2016
 
 ### HAUS 360
