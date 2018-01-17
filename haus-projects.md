@@ -7,6 +7,7 @@ Ad Council's new campaign to help discuss issues with friends who may be at risk
 - Agency: Droga5
 - Tech: Node, React
 - Role: Lead Front-end developer
+- Site: [https://seizetheawkward.org/](https://seizetheawkward.org/)
 - Date: 2017
 
 ### Rob Dyrdek's Website
