@@ -2,7 +2,7 @@
 
 React 16 landed with a helpful [new API](https://reactjs.org/docs/portals.html) called _portals_, which is a first-class way of rendering children into a DOM node outside of the parent component's hierarchy. Before 16, you had to provide your own solution for breaking outside of this hierarchy. Now it's just as simple as calling:
 
-```
+```js
 ReactDOM.createPortal(<Component>, domNode)
 ```
 
@@ -56,7 +56,7 @@ The button to toggle the portal on and off illustrates the issue of overflow and
 
 Check out what the `ContextMenu` is returning and you'll see a call to `createPortal` where the argument `menu` is the markup, and `portalEl` is the `#context-menu` DOM element (the ternary exists so I can toggle it on and off in the demo):
 
-```
+```js
 return portalEl ? ReactDOM.createPortal(menu, portalEl) : menu;
 ```
 
