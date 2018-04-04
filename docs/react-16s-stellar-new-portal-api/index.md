@@ -1,7 +1,5 @@
 # React 16's ✨ Stellar New Portal 🔮 API
 
-## The Portal API
-
 React 16 landed with a helpful [new API](https://reactjs.org/docs/portals.html) called _portals_, which is a first-class way of rendering children into a DOM node outside of the parent component's hierarchy. Before 16, you had to provide your own solution for breaking outside of this hierarchy. Now it's just as simple as calling:
 
 ```
@@ -51,6 +49,8 @@ Here's what it looks like. Be sure to click around on the artboard to see how th
 
 <iframe height='670' scrolling='no' title='Portal for escaping hidden overflow' src='//codepen.io/jscottsmith/embed/36f1d12b6b54e0131bfac956c2b35d01/?height=524&theme-id=8020&default-tab=result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/36f1d12b6b54e0131bfac956c2b35d01/'>Portal for escaping hidden overflow</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[Debug View](https://s.codepen.io/jscottsmith/debug/36f1d12b6b54e0131bfac956c2b35d01)
 
 The button to toggle the portal on and off illustrates the issue of overflow and why the portal is helpful in this case. When the portal is enabled React is directed to render my `<ContextMenu>` outside of the `<Window>`. Specifically, it is told to render it into the body of the HTML document at `<div id="context-menu"></div>`. This allows it to appear as a global UI element while still remaining logically nested within the component hierarchy.
 
@@ -107,6 +107,8 @@ Here's the Demo — type in the text area, insert a `:` and the shortcode name t
 
 <iframe height='670' scrolling='no' title='Chat Window' src='//codepen.io/jscottsmith/embed/544df53610280169a398240b971f1f70/?height=670&theme-id=8020&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/544df53610280169a398240b971f1f70/'>Chat Window</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[Debug View](https://codepen.io/jscottsmith/debug/544df53610280169a398240b971f1f70)
 
 As you can see in the demo, a menu will pop up at the top of the window even though our parent component is located within another component.
 
