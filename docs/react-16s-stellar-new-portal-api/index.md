@@ -25,9 +25,9 @@ Enter the magic 🔮 of native Portals! Instead of moving the component, we can 
 
 I've "thrown" together a few demos to illustrate how the portal API can simplify the relocation or transportation of DOM markup without resorting to prop functions, Redux, or other libraries.
 
-1. [Escaping Hidden Overflow](#escaping-hidden-overflow)
-2. [Escaping Positioning](#escaping-positioning)
-3. [Portal To Another Window](#portal-to-another-window)
+1. [Escaping Hidden Overflow](#escaping-hidden-overflow) - Artboard that lets you create shapes within a window.
+2. [Escaping Positioning](#escaping-positioning) - Chat app that lets you type messages with emojis.
+3. [Portal To Another Window](#portal-to-another-window) - Messenger app that lets you "save" and share links too messages.
 
 ### Escaping Hidden Overflow
 
