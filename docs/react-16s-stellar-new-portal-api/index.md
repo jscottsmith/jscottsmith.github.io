@@ -1,3 +1,5 @@
+# React 16's ✨ Stellar New Portal 🔮 API
+
 ## The Portal API
 
 React 16 landed with a helpful [new API](https://reactjs.org/docs/portals.html) called _portals_, which is a first-class way of rendering children into a DOM node outside of the parent component's hierarchy. Before 16, you had to provide your own solution for breaking outside of this hierarchy. Now it's just as simple as calling:
