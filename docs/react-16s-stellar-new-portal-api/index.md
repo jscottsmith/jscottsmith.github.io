@@ -9,17 +9,17 @@ ReactDOM.createPortal(<Component>, domNode)
 Yup, just pass a `<Component>` you'd like to render and _any_ valid HTML DOM node that you'd like React to render the component into.
 
 
-### So what, who cares? ðŸ¤” Why is this helpful?
+### So what, who cares? 🤔 Why is this helpful?
 
 The main reason the Portal API is useful is to escape inherited styles of parent DOM nodes -- think `z-index`, `overflow` and `position` -- and provide a way to render "outside" of the current component hierarchy. Before Portals, this was somewhat tricky...
 
 As you may know data in React naturally flows down from parent to child so it's completely normal to end up with nested components that are logically related to their ancestors. But we may find ourselves in a situation where the parent DOM element has some styles that impact the child elements and the only way to avoid these effects is to move that component outside of the parent.
 
-Seems simple enough â€” but what if the state and context of the child are closely coupled with the parent component? Well, then you'll have to start communicating between the two. This can also be accomplished a number of ways such as with a prop functions, using actions from a state management library like Redux, or even using a third party portal implementation.
+Seems simple enough — but what if the state and context of the child are closely coupled with the parent component? Well, then you'll have to start communicating between the two. This can also be accomplished a number of ways such as with a prop functions, using actions from a state management library like Redux, or even using a third party portal implementation.
 
 All solutions have drawbacks: Prop callbacks can get old really fast if you've "drilled" to deep, state libraries can be overly complex for a simple React project and is an extra dependency, and third party portals obviously aren't built in.
 
-Enter the magic ðŸ”® of native Portals! Instead of moving the component we can "transport" it through a portal to render into a DOM node of our choosing. We'll still be rendering in the same context and have access to all the parent props/state/data we may need but we'll also be able to escape any parent styles that were proving problematic for our design. 
+Enter the magic 🔮 of native Portals! Instead of moving the component we can "transport" it through a portal to render into a DOM node of our choosing. We'll still be rendering in the same context and have access to all the parent props/state/data we may need but we'll also be able to escape any parent styles that were proving problematic for our design. 
 
 ## Demo Time!
 
@@ -39,7 +39,7 @@ Cool, so with those parameters I've created a very simple React app that allows 
 - `<Artboard>` which will include _all_ our stateful interactivity.
 - `<ContextMenu>` to display menu options to the user
 
-It's important to note that the `<Window>` has some CSS to hide overflow in my use case that was absolutely necessary to have nifty rounded corners ðŸ˜œ. 
+It's important to note that the `<Window>` has some CSS to hide overflow in my use case that was absolutely necessary to have nifty rounded corners 😜. 
 
 Here's what it looks like. Be sure to click around on the artboard to see how the menu is cut-off by the window. Then enable the portal to fix the overflow issue and render to the root of the document.
 
@@ -62,7 +62,7 @@ So the portal in this example allows us to keep the `<ContextMenu>` close to the
 
 Sometimes the necessary positioning of a parent can cause limitations when positioning a child. Another perfect use case for a Portal.
 
-Let's make a dumb chat bot, that allows us to chat using emoji with shortcodes like :robot: ðŸ¤– or :smile: ðŸ˜€. Here's the main things it will do:
+Let's make a dumb chat bot, that allows us to chat using emoji with shortcodes like :robot: 🤖 or :smile: 😀. Here's the main things it will do:
 
 - Allow users to type into a message box that automatically searches for potential emoji shortcodes.
 - Display a menu of those potentially matching emoji to select an insert into the message. 
@@ -101,7 +101,7 @@ Now that we have a reference to the element we can create the portal. I've set u
 
 That's really it. Again, it's incredibly simple to setup and now we're rendering part of our component markup into another DOM node (this time a node managed by React) outside of the parent.
 
-Here's the Demo â€” type in the text area, insert a `:` and the shortcode name to see the menu pop up.
+Here's the Demo — type in the text area, insert a `:` and the shortcode name to see the menu pop up.
 
 <iframe height='670' scrolling='no' title='Chat Window' src='//codepen.io/jscottsmith/embed/544df53610280169a398240b971f1f70/?height=670&theme-id=8020&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/544df53610280169a398240b971f1f70/'>Chat Window</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -173,7 +173,7 @@ const RecursivePortal = ({ children, depth, component: Component }) => (
 
 In the `<Component>` that is rendered recursively we'll capture click events by attaching an `onClick={event => handleClick(depth, event)}` that adds a class after a delay based on depth to the element to show when it receives an event.
 
-In each you can click an element and see the event propagate up the _React_ hierarchy. I've also synthetically delayed the animation of the event by increasing the delay with each capture. The real event happens instantaneously but this far is more interesting to look at. ðŸ˜‰
+In each you can click an element and see the event propagate up the _React_ hierarchy. I've also synthetically delayed the animation of the event by increasing the delay with each capture. The real event happens instantaneously but this far is more interesting to look at. 😉
 
 It's also cool to check out the HTML tree vs the React tree using Chrome dev tools. I've included links to the actual HTML pages so that you can inspect them to see these differences.
 
@@ -184,9 +184,9 @@ React structure                     HTML structure
 ---------------                     --------------
 
 <Component>                         <div>            
-â””â”€â”€ <Component>                     â””â”€â”€ <div>        
-    â””â”€â”€ <Component>                     â””â”€â”€ <div>    
-        â””â”€â”€ <Component>                     â””â”€â”€ <div>
+└── <Component>                     └── <div>        
+    └── <Component>                     └── <div>    
+        └── <Component>                     └── <div>
 ```
 
 Demo:
@@ -203,9 +203,9 @@ React structure                     HTML structure
 ---------------                     --------------
 
 <Portal>                            <div>  
-â””â”€â”€ <Portal>                        <div>      
-    â””â”€â”€ <Portal>                    <div>    
-        â””â”€â”€ <Portal>                <div>
+└── <Portal>                        <div>      
+    └── <Portal>                    <div>    
+        └── <Portal>                <div>
 ```
 
 <iframe height='536' scrolling='no' title='Event Bubbling React Portals' src='//codepen.io/jscottsmith/embed/37674e2ece7e0ab898341eecfeb3ef2b/?height=536&theme-id=8020&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/37674e2ece7e0ab898341eecfeb3ef2b/'>Event Bubbling React Portals</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
