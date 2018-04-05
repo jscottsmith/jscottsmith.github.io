@@ -45,7 +45,7 @@ Cool, so with those parameters, I've created a very simple React app that allows
 
 It's important to note that the `<Window>` has some CSS to hide overflow in my use case that was absolutely necessary to have nifty rounded corners 😜. 
 
-Here's what it looks like. Be sure to click around on the artboard to see how the menu is cut-off by the window. Then enable the portal to fix the overflow issue and render to the root of the document.
+Here's what it looks like. **Be sure to click and scroll around on the artboard to see how the menu is cut-off by the window.** Then enable the portal to fix the overflow issue and render to the root of the document.
 
 <iframe height='670' scrolling='no' title='Portal for escaping hidden overflow' src='//codepen.io/jscottsmith/embed/36f1d12b6b54e0131bfac956c2b35d01/?height=524&theme-id=8020&default-tab=result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/36f1d12b6b54e0131bfac956c2b35d01/'>Portal for escaping hidden overflow</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -103,7 +103,7 @@ Now that we have a reference to the element, we can create the portal. I've set 
 
 That's really it. Again, it's incredibly simple to setup and now we're rendering part of our component markup into another DOM node (this time a node managed by React) outside of the parent.
 
-Here's the Demo — type in the text area, insert a `:` and the shortcode name to see the menu pop up.
+Here's the Demo. You can type in the text area and insert a `:` with the shortcode name to see the menu pop up. Tab to autocomplete emoji and hit enter to submit messages.
 
 <iframe height='670' scrolling='no' title='Chat Window' src='//codepen.io/jscottsmith/embed/544df53610280169a398240b971f1f70/?height=670&theme-id=8020&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/544df53610280169a398240b971f1f70/'>Chat Window</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
