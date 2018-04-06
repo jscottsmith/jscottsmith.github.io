@@ -150,7 +150,7 @@ This solution offers a really nice user experience because when opening an exter
 
 So, here's the demo. Save a message and open a link to see the portal in action:
 
-<iframe height='724' scrolling='no' title='Window Portal' src='//codepen.io/jscottsmith/embed/7ff654307d2ea47b86e8a80f418ae3c5/?height=724&theme-id=32757&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/7ff654307d2ea47b86e8a80f418ae3c5/'>Window Portal</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='724' scrolling='no' title='Window Portal' src='//codepen.io/jscottsmith/embed/7ff654307d2ea47b86e8a80f418ae3c5/?height=724&theme-id=8020&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jscottsmith/pen/7ff654307d2ea47b86e8a80f418ae3c5/'>Window Portal</a> by J Scott Smith (<a href='https://codepen.io/jscottsmith'>@jscottsmith</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 [Debug View](https://s.codepen.io/jscottsmith/debug/7ff654307d2ea47b86e8a80f418ae3c5)
