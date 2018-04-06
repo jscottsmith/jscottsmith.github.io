@@ -27,7 +27,7 @@ I've "thrown" together a few demos to illustrate how the portal API can simplify
 
 1. [Escaping Hidden Overflow](#escaping-hidden-overflow) - Artboard that lets you create shapes within a window.
 2. [Escaping Positioning](#escaping-positioning) - Chat app that lets you type messages with emojis.
-3. [Portal To Another Window](#portal-to-another-window) - Messenger app that lets you "save" and share links too messages.
+3. [Portal To Another Window](#portal-to-another-window) - Messenger app that lets you "save" and share links to messages.
 
 ### Escaping Hidden Overflow
 
