@@ -36,6 +36,7 @@ Website for MicroVention, a medical device company leading innovations in develo
 - Client: MicroVention
 - Tech: Django
 - Role: Lead Front-end developer
+- Site: [https://www.microvention.com/](https://www.microvention.com/)
 - Date: 2017
 
 ### Rexford Industrial's Website
